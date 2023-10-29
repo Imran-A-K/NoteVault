@@ -4,8 +4,10 @@ import Logo from "./Logo";
 function Footer() {
   return (
     <div
-      className="flex flex-col items-center
-  w-full p-6 bg-background z-50"
+      className="flex items-center
+  w-full p-6 bg-background z-50
+  dark:bg-[#1F1F1F]
+  "
     >
       <Logo />
       <div className="md:ml-auto w-full justify-between md:justify-end flex items-center gap-x-3 text-muted-foreground">
