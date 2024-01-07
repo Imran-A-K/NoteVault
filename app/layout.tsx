@@ -42,7 +42,7 @@ export default function RootLayout({
             disableTransitionOnChange
             storageKey="noteVault-theme"
           >
-            <Toaster position="bottom-center" />
+            <Toaster position="top-center" />
             {children}
           </ThemeProvider>
         </ConvexClientProvider>
